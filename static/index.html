@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SignSense Detector</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <h1>SignSense Detector</h1>
+  <span class="subtitle">Real-time hand sign detection</span>
+</header>
+
+<main class="card">
+  <div class="video-box">
+    <img id="videoFeed" alt="Camera feed" />
+    <div id="videoPlaceholder" class="video-placeholder">Camera is off</div>
+  </div>
+
+  <div class="controls">
+    <button id="btnStart" class="btn btn-primary">Start Detection</button>
+    <button id="btnStop" class="btn btn-secondary" disabled>Stop</button>
+    <span id="modelBadge" class="badge badge-muted">Checking model…</span>
+    <button id="btnReload" class="btn btn-secondary btn-small">Reload Model</button>
+  </div>
+
+  <div class="result-box">
+    <div id="resultLabel" class="result-label">Waiting…</div>
+    <div class="progress-track"><div id="confFill" class="progress-fill"></div></div>
+    <div id="confLabel" class="muted">0% confidence</div>
+  </div>
+</main>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="/script.js"></script>
+</body>
+</html>
