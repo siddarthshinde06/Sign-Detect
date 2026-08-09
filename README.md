@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤟 SignSense
+# SignSense
 
 ### Real-Time Hand Sign Detection with MediaPipe + SVM
 
