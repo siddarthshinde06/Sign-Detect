@@ -85,7 +85,13 @@ Once `svm_model.pkl` and `scaler.pkl` exist next to `app.py`:
 python app.py
 ```
 
-Then open **http://localhost:8000** in your browser. Click **Start Detection** to open the webcam feed; the predicted sign and confidence appear below the video. **Reload Model** re-loads the `.pkl` files without restarting the server (useful after retraining). **Stop** releases the camera.
+Then open the app in your browser:
+
+```bash
+http://localhost:8000
+```
+
+Click **Start Detection** to open the webcam feed; the predicted sign and confidence appear below the video. **Reload Model** re-loads the `.pkl` files without restarting the server (useful after retraining). **Stop** releases the camera.
 
 ## API reference
 
