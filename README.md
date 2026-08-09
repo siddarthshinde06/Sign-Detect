@@ -114,4 +114,5 @@ Click **Start Detection** to open the webcam feed; the predicted sign and confid
 
 ## License
 
-Add your license of choice here (e.g. MIT).
+Siddarth shinde
+
